@@ -1,8 +1,8 @@
 #body{
     display: flex;
     flex-direction: row;
-    border: solid;
-    height: 150%;
+    /* border: solid; */
+    height: auto;
 }
 
 .logo{
@@ -89,6 +89,7 @@ height: 100%;
 
 .detailedInformation{
     display: block;
+    
 }
 
 .icon{
@@ -112,7 +113,8 @@ footer{
 }
 
 .footer{
-    border:solid;
+    /* border:solid; */
+    width: 20%;
     /* position: absolute;
     bottom: 0;
     width:100%;
@@ -243,7 +245,8 @@ button{
 
     #uxSkills{
 
-        margin-top: -6%;
+        /* margin-top: -6%; */
+        margin-bottom: 8%;
     }
 
     @media only screen and (max-width: 600px){
