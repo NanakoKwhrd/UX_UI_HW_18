@@ -1,0 +1,143 @@
+#body{
+    display: flex;
+    flex-direction: row;
+    /* border: solid; */
+    /* height: 80%; */
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.titleName{
+    /* border: solid; */
+    margin-left: -25px;
+    margin-bottom: 4%;
+    
+
+  list-style-type: none;
+}
+
+#sideNavBar{
+width: 250px;
+height: 500px;
+/* border: solid; */
+/* justify-content: flex-start; */
+display: flex;
+flex-direction: column;
+
+
+
+    
+}
+
+#mainContent{
+   text-align: center;
+    /* border: solid; */
+    width: 100%;
+    display: block;
+
+}
+
+
+
+.detailedInformation{
+    display: block;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    /* border: solid; */
+    
+   
+}
+
+.grid{
+    margin-top: -5%;
+    /* border: solid; */
+    width: auto;
+    height: 430px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+    "sample1 top"
+    "sample2 middle"
+    "sample3 bottom"
+    ;
+}
+
+
+.sample1{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample1;
+    
+    
+}
+.sample2{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample2;
+    
+}
+.sample3{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample3;
+    
+}
+
+.top{
+    grid-area: top;
+    border:solid 1px;
+    border-left: none;
+    padding-top: 7px;
+    
+}
+.middle{
+    grid-area: middle;
+    border:solid 1px;
+    border-left: none;
+    border-top: none;
+    padding-top: 7px;
+}
+.bottom{
+    grid-area: bottom;
+    border:solid 1px;
+    border-left: none;
+    border-top: none;
+    padding-top: 7px;
+}
+
+
+h1{
+    height: 50px;
+    /* border: solid; */
+    margin-top: -0.5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+}
+
+
